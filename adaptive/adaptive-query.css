@@ -1,0 +1,40 @@
+
+		@media screen and (max-width: 1000px) {
+			.container-adaptive {
+				width: 750px;
+			}
+				
+		}
+		@media screen and (max-width: 800px) {
+			.container-adaptive {
+				width: 500px;
+			}
+			.container-adaptive .section .aside-left,
+			.container-adaptive .section .aside-right{
+				width: 200px;
+			}
+			.container-adaptive .clear-center {
+				background: #F9EAEF;
+			}
+		}
+		@media screen and (max-width: 550px) {
+			.container-adaptive {
+				width: 300px;
+			}
+
+			.container-adaptive .section .aside-left,
+			.container-adaptive .section .aside-right{
+				width: 100%;
+				float: none;
+				text-align: center;
+			}
+			.container-adaptive .clear-center {
+				background: #EAEBF9;
+			}
+			.container-adaptive .nav a:hover {
+				background: #E2C3C3;
+			}
+			.container-adaptive .nav a {
+				display: block;
+			}
+		}	
