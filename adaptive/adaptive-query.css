@@ -11,10 +11,12 @@
 @media screen and (max-width: 800px) {
 	.container-adaptive {
 		width: 700px;
+		outline:3px solid green;
 	}
 	.container-adaptive .section .aside-left,
 	.container-adaptive .section .aside-right{
 		width: 200px;
+		outline:3px solid green;
 	}
 	.container-adaptive .clear-center {
 		background: #F9EAEF;
@@ -33,6 +35,7 @@
 @media screen and (max-width: 550px) {
 	.container-adaptive {
 		width: 300px;
+		outline:3px solid blue;
 	}
 
 	.container-adaptive .section .aside-left,
@@ -40,6 +43,7 @@
 		width: 100%;
 		float: none;
 		text-align: center;
+		outline:3px solid blue;
 	}
 	.container-adaptive .clear-center {
 		background: #EAEBF9;
