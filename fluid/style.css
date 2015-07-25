@@ -25,11 +25,11 @@ img {
 }
 .container-adaptive .section .aside-right{
 	float: right;
-	border: 1px solid red;
+	border: 3px solid red;
 }
 .container-adaptive .section .aside-left{
 	float: left;
-	border: 1px solid green;
+	border: 3px solid green;
 }
 .container-adaptive .section .aside-left,
 .container-adaptive .section .aside-right{
@@ -42,7 +42,7 @@ img {
 	padding: 10px;
 	margin: 10px 0;
 	background: #EAF9EB;
-	border: 1px solid #CCDECD;
+	border: 3px solid #CCDECD;
 }
 .container-adaptive .logo{
 	width: 100%;

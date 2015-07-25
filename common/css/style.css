@@ -26,13 +26,13 @@ img {
 .container-adaptive .section .aside-right{
 	float: right;
 	min-height: 300px;
-	border: 1px solid red;
+	border: 3px solid red;
 	width: 300px;
 }
 .container-adaptive .section .aside-left{
 	float: left;
 	min-height: 300px;
-	border: 1px solid green;
+	border: 3px solid green;
 	width: 300px;
 }
 .container-adaptive .clear-center{
@@ -40,7 +40,7 @@ img {
 	padding: 10px;
 	margin: 10px 0;
 	background: #EAF9EB;
-	border: 1px solid #CCDECD;
+	border: 3px solid #CCDECD;
 }
 .container-adaptive .logo{
 	width: 100%;
