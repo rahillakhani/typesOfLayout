@@ -8,8 +8,8 @@ img {
 .container-adaptive {
 	max-width: 1000px;
 	margin: 0 auto;
-	border: 1px solid #333;
-	padding: 10px;
+	padding: 10px;	
+	outline: 3px solid red;
 }
 .container-adaptive .section{
 	display: block;
@@ -25,17 +25,16 @@ img {
 }
 .container-adaptive .section .aside-right{
 	float: right;
-	border: 3px solid red;
 }
 .container-adaptive .section .aside-left{
 	float: left;
-	border: 3px solid green;
 }
 .container-adaptive .section .aside-left,
 .container-adaptive .section .aside-right{
 	min-height: 300px;
 	max-width: 300px;
-	width: 30%;
+	width: 30%;	
+	outline: 3px solid red;
 	}
 .container-adaptive .clear-center{
 	clear: both;
