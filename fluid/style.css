@@ -5,55 +5,58 @@ body {
 img {
 	max-width: 100%;
 }
-.container-adaptive {
+.wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 10px;	
 	outline: 3px solid red;
 }
-.container-adaptive .section{
+.wrapper .section{
 	display: block;
 	border-top: 1px solid #aaa;
 	margin: 10px;
 	padding: 10px;
 }
-.container-adaptive .section:after{
+.wrapper .section:after{
 	clear: both;
 	content:"";
 	display: block;
 	
 }
-.container-adaptive .section .aside-right{
+.wrapper .section .aside-right{
 	float: right;
 }
-.container-adaptive .section .aside-left{
+.wrapper .section .aside-left{
 	float: left;
 }
-.container-adaptive .section .aside-left,
-.container-adaptive .section .aside-right{
+.wrapper .section .aside-left,
+.wrapper .section .aside-right{
 	min-height: 300px;
 	max-width: 300px;
 	width: 30%;	
 	outline: 3px solid red;
-	}
-.container-adaptive .clear-center{
+	background: url(bg-pattern2-perf.png);
+	background-position: left top;
+	background-size: auto 100%;  
+}
+.wrapper .clear-center{
 	clear: both;
 	padding: 10px;
 	margin: 10px 0;
 	background: #EAF9EB;
 	border: 3px solid #CCDECD;
 }
-.container-adaptive .logo{
+.wrapper .logo{
 	width: 100%;
 	text-align: center;
 	text-decoration: underline;
 }
-.container-adaptive .nav{
+.wrapper .nav{
 	display: block;
 	text-align: center;
 	padding-bottom: 20px;
 }
-.container-adaptive .nav a{
+.wrapper .nav a{
 	display: inline-block;
 	padding: 6px 10px;
 	border-bottom: 2px solid #cccccc;
@@ -63,7 +66,7 @@ img {
 	margin: 0 10px;
 	width: 23%;
 }
-.container-adaptive .nav a:hover{
+.wrapper .nav a:hover{
 	border-top: 2px solid #cccccc;
 	border-bottom: 2px solid #efefef;
 }

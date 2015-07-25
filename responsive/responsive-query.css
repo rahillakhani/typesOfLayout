@@ -1,10 +1,10 @@
-.container-adaptive {
+.wrapper {
 	width: 100%;
 	max-width: 1000px;
 }
 
 @media screen and (max-width: 1000px) {
-	.container-adaptive {
+	.wrapper {
 		width: auto;
 	}
 	.desktop-only {
@@ -13,20 +13,20 @@
 		
 }
 @media screen and (max-width: 800px) {
-	.container-adaptive {
+	.wrapper {
 		width: auto;
 		outline: 3px solid green;
 	}
-	.container-adaptive .section .aside-left,
-	.container-adaptive .section .aside-right{
+	.wrapper .section .aside-left,
+	.wrapper .section .aside-right{
 		width: 200px;
 		outline: 3px solid green;
 	}
-	.container-adaptive .clear-center {
+	.wrapper .clear-center {
 		background: #F9EAEF;
 	}
-	.container-adaptive .nav a{
-		width: 123px;
+	.wrapper .nav a{
+		width: 85px;
 	}
 	.desktop-only {
 		display: none;
@@ -36,25 +36,25 @@
 	}
 }
 @media screen and (max-width: 550px) {
-	.container-adaptive {
+	.wrapper {
 		width: auto;
 		outline: 3px solid blue;
 	}
 
-	.container-adaptive .section .aside-left,
-	.container-adaptive .section .aside-right{
+	.wrapper .section .aside-left,
+	.wrapper .section .aside-right{
 		width: 100%;
 		float: none;
 		text-align: center;
 		outline: 3px solid blue;
 	}
-	.container-adaptive .clear-center {
+	.wrapper .clear-center {
 		background: #EAEBF9;
 	}
-	.container-adaptive .nav a:hover {
+	.wrapper .nav a:hover {
 		background: #E2C3C3;
 	}
-	.container-adaptive .nav a {
+	.wrapper .nav a {
 		display: block;
 		width: auto;
 	}
