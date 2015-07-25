@@ -1,7 +1,11 @@
+.container-adaptive {
+	width: 100%;
+	max-width: 1000px;
+}
 
 @media screen and (max-width: 1000px) {
 	.container-adaptive {
-		width: 900px;
+		width: auto;
 	}
 	.desktop-only {
 		display: block;
@@ -10,7 +14,7 @@
 }
 @media screen and (max-width: 800px) {
 	.container-adaptive {
-		width: 700px;
+		width: auto;
 	}
 	.container-adaptive .section .aside-left,
 	.container-adaptive .section .aside-right{
@@ -28,11 +32,10 @@
 	.tab-only{
 		display: block;
 	}
-
 }
 @media screen and (max-width: 550px) {
 	.container-adaptive {
-		width: 300px;
+		width: auto;
 	}
 
 	.container-adaptive .section .aside-left,
@@ -56,6 +59,6 @@
 	}
 	.mobile-only{
 		display: block;
+		margin: auto;
 	}
-
 }	

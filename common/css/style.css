@@ -6,7 +6,7 @@ img {
 	max-width: 100%;
 }
 .container-adaptive {
-	max-width: 1000px;
+	width: 1000px;
 	margin: 0 auto;
 	border: 1px solid #333;
 	padding: 10px;
@@ -25,18 +25,16 @@ img {
 }
 .container-adaptive .section .aside-right{
 	float: right;
+	min-height: 300px;
 	border: 1px solid red;
+	width: 300px;
 }
 .container-adaptive .section .aside-left{
 	float: left;
-	border: 1px solid green;
-}
-.container-adaptive .section .aside-left,
-.container-adaptive .section .aside-right{
 	min-height: 300px;
-	max-width: 300px;
-	width: 30%;
-	}
+	border: 1px solid green;
+	width: 300px;
+}
 .container-adaptive .clear-center{
 	clear: both;
 	padding: 10px;
@@ -62,9 +60,15 @@ img {
 	text-decoration: none;
 	color: #333;
 	margin: 0 10px;
-	width: 23%;
+	width: 200px;
 }
 .container-adaptive .nav a:hover{
 	border-top: 2px solid #cccccc;
 	border-bottom: 2px solid #efefef;
+}
+.desktop-only {
+	display: block;
+}
+.mobile-only, .tab-only{
+	display: none;
 }
