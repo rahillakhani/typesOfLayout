@@ -5,7 +5,7 @@
 		}
 
 		.container-adaptive {
-			width: 1000px;
+			max-width: 1000px;
 			margin: 0 auto;
 			border: 1px solid #333;
 			padding: 10px;
@@ -24,16 +24,18 @@
 		}
 		.container-adaptive .section .aside-right{
 			float: right;
-			min-height: 300px;
 			border: 1px solid red;
-			width: 300px;
 		}
 		.container-adaptive .section .aside-left{
 			float: left;
-			min-height: 300px;
 			border: 1px solid green;
-			width: 300px;
 		}
+		.container-adaptive .section .aside-left,
+		.container-adaptive .section .aside-right{
+			min-height: 300px;
+			max-width: 300px;
+			width: 30%;
+			}
 		.container-adaptive .clear-center{
 			clear: both;
 			padding: 10px;
@@ -59,6 +61,7 @@
 			text-decoration: none;
 			color: #333;
 			margin: 0 10px;
+			width: 23%;
 		}
 		.container-adaptive .nav a:hover{
 			border-top: 2px solid #cccccc;

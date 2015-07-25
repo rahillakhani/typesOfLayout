@@ -1,13 +1,13 @@
 
 		@media screen and (max-width: 1000px) {
 			.container-adaptive {
-				width: 750px;
+				width: 900px;
 			}
 				
 		}
 		@media screen and (max-width: 800px) {
 			.container-adaptive {
-				width: 500px;
+				width: 700px;
 			}
 			.container-adaptive .section .aside-left,
 			.container-adaptive .section .aside-right{
@@ -15,6 +15,9 @@
 			}
 			.container-adaptive .clear-center {
 				background: #F9EAEF;
+			}
+			.container-adaptive .nav a{
+				width: 123px;
 			}
 		}
 		@media screen and (max-width: 550px) {
@@ -36,5 +39,6 @@
 			}
 			.container-adaptive .nav a {
 				display: block;
+				width: auto;
 			}
 		}	

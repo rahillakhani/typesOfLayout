@@ -59,6 +59,7 @@
 			text-decoration: none;
 			color: #333;
 			margin: 0 10px;
+			width: 200px;
 		}
 		.container-adaptive .nav a:hover{
 			border-top: 2px solid #cccccc;
